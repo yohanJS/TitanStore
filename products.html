@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/products.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Products</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"><img src="./logo/logo.svg" class="logo" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="./index.html">Home</a>
+              <a class="nav-link" href="./login.html">Login</a>
+              <a class="nav-link" href="./registration.html">Account</a>
+              <a class="nav-link" href="./signup.html">Subscribe</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <main>
+        <div class="intro d-flex">
+            <h2 class="w-50 p-3">Products</h2>
+            <a id="cart" href="checkout.html" class="cart w-20 m-4 text-center"></a>
+        </div>
+        <section class="d-flex flex-column flex-md-row m-2 p-2 product-section">
+            <div>
+                <p>Courses</p>
+                <img src="./images/courses.svg" class="w-75" alt="courses-image"><br>
+                <button id="product-1" class="add">Add</button>
+                <button id="product-one" class="remove">Remove</button>
+            </div>
+            <div>
+                <p>Coding Skills</p>
+                <img src="./images/buyCoding.svg" class="w-75" alt="blue-t-shirt"><br>
+                <button id="product-2" class="add">Add</button>
+                <button id="product-two" class="remove">Remove</button>
+            </div>
+            <div>
+                <p>Master-the-mind</p>
+                <img src="./images/mastermind.svg" class="w-75" alt="mastermind image"><br>
+                <button id="product-3" class="add">Add</button>
+                <button id="product-three" class="remove">Remove</button>
+            </div>
+            <div>
+                <p>Best Electronics</p>
+                <img src="./images/electronics.svg" class="w-75" alt="tv-monitor"><br>
+                <button id="product-4" class="add">Add</button>
+                <button id="product-four" class="remove">Remove</button>
+            </div>
+            <div>
+                <p>Knowledge</p>
+                <img src="./images/books.svg" class="w-75" alt="books"><br>
+                <button id="product-5" class="add">Add</button>
+                <button id="product-five" class="remove">Remove</button>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-light p-5 text-center">
+        <p class="author">Created by YohanCraft &copy; Copyright 2021</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="./scripts/shoppingCart.js" defer></script>
+</body>
+</html>

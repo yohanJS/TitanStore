@@ -1,0 +1,80 @@
+* {
+    box-sizing: content-box;
+}
+body {
+    background-color: #eee;
+    margin: 0;
+}
+.logo {
+    height: 50px;
+    box-shadow: 1px 1px 1px 1px #eee;
+    border-radius: 10px;
+}
+/*
+#title {
+    text-align: center;
+    color: #111;
+    font-size: 1.9em;
+    padding: 30px;
+}
+#table-cart {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    color: #eee;
+    background-color: #111;
+}
+td {
+    color: #111;
+}
+#total-price {
+    text-align: center;
+}
+#checkout-form fieldset {
+    border: none;
+}
+#checkout-form label {
+    margin-left: 30px;
+    text-transform: capitalize;
+}
+#checkout-form input {
+    margin-left: 30px;
+}
+#pay {
+    background-color: #d35129;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-width: 0;
+    font-size: 0.6em;
+}
+footer {
+    text-align: center;
+    background-color: #d35129;
+    color: #eee;
+    margin-top: 100px;
+    padding: 40px;
+}
+footer p {
+    color: #eee;
+    letter-spacing: 1px;
+}
+*/
+@media only screen and (min-width: 768px) {
+    .checkout-form {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style/registration.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Register</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"><img src="./logo/logo.svg" class="logo" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="./index.html">Home</a>
+              <a class="nav-link" href="./login.html">Login</a>
+              <a class="nav-link" href="./signup.html">Subscribe</a>
+              <a class="nav-link" href="./products.html">Products</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <section>
+      <h2 class="p-5">Account registration</h2>
+      
+      <form method="GET" id="register_form" name="register_form">
+
+        <label for="email">Enter email</label>
+        <input type="email" name="email" id="email" placeholder="joe@smith.com">
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+        
+
+        <label>Phone number</label>
+        <input type="tel" name="phone" id="phone" placeholder="555-555-5555">
+
+        <label>Street</label>
+        <input type="text" name="street" id="street">
+
+        <label>City</label>
+        <input type="text" name="city" id="city">
+
+        <label>State</label>
+            <select name="state" id="state">
+                <option value="">select</option>
+                <option>FL</option>
+                <option>GA</option>
+            </select>
+  
+
+        <label>Zip Code</label>
+        <input type="text" name="zip_code" id="zip_code">
+        
+        <div class="contact-section">
+          <label for="contact_me">Contact me by:</label><br>
+          <input type="radio" id="text" name="contact" value="text" checked>
+          <label for="text">Text</label>
+          <input type="radio" id="email_check" name="contact" value="email">
+          <label for="email_check">Email</label>
+          <input type="radio" id="no_contact" name="contact" value="no_contact">
+          <label for="do_not">Do not contact me</label>
+        </div>
+        
+         
+
+        <label for="terms">Terms of Service</label>
+        <input type="checkbox" name="accept" id="accept">I Accept
+        <span> </span>
+
+        <input type="button" value="Register" id="register" class="btn-primary btn-lg m-1">
+        <input type="button" value="Reset" id="clear" class="btn-warning btn-lg m-1"><br>
+
+      </form>
+    </section>
+    <h2 id="bad_entries"></h2>
+    <table id="bad_entries"></table>
+    <br>
+    <br>
+    <footer class="bg-dark text-light p-5 text-center">
+        <p class="author">Created by YohanCraft &copy; Copyright 2021</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src=".//scripts/registration.js" defer></script>
+</body>
+</html>

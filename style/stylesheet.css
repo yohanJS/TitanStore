@@ -1,0 +1,41 @@
+* {
+    box-sizing: content-box;
+}
+body {
+    color: #111;
+    margin: 0;
+    background: #d35129;
+}
+.logo {
+    height: 50px;
+    box-shadow: 1px 1px 1px 1px #eee;
+    border-radius: 10px;
+}
+.intro-section {
+    text-align: center;
+    margin: 60px 0;
+}
+#ad-container {
+    width: 350px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 10px 2px #eee;
+    border-radius: 20px;
+}
+main {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+    padding: 30px;
+    color: #eee;
+}
+footer p {
+    letter-spacing: 1px;
+}
+@media only screen and (max-width: 768px) {
+}
+

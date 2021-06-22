@@ -1,0 +1,33 @@
+* {
+    box-sizing: content-box;
+}
+body {
+    margin: 0;
+}
+.logo {
+    height: 50px;
+    box-shadow: 1px 1px 1px 1px #eee;
+    border-radius: 10px;
+}
+.title {
+    font-size: 1.6rem;
+}
+.btn-login {
+    border: none;
+    background-color: #63a4ff;
+    background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+.btn-login a {
+    text-decoration: none;
+    color: #111;
+}
+@media only screen and (min-width: 768px) {
+    #reset_form {
+        margin: 120px;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

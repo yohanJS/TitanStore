@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #111;
+    color: #eee;
+    margin: 0;
+}
+.logo {
+    height: 50px;
+    box-shadow: 1px 1px 1px 1px #eee;
+    border-radius: 10px;
+}
+#subscribe_form {
+    width: 90%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+label {
+    letter-spacing: 1px;
+    color: #111;
+    font-size: 1rem;
+}
+input {
+    border-width: 0.1ch;
+    border-radius: 5px;
+    padding: 5px;
+}
+input:focus {
+    outline: none;
+}
+@media only screen and (min-width: 768px) {
+    #subscribe_form {
+        width: 50%;
+        padding: 25px;
+        margin: 80px auto;
+        border-radius: 5px;
+    }
+    #subscribe_form label{
+        font-size: 1.3em;
+    }
+    #subscribe_form input {
+        font-size: 1.2em;
+    }
+}
